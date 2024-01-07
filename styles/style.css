@@ -1,41 +1,152 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 
 }
-nav>h2{
-color: var(--Dark-01, #090909);
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+nav>h2 {
+    color: var(--Dark-01, #090909);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-nav>ul{
-    display: flex;  
+
+nav>ul {
+    display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
-    margin-right: 50px; 
-  
+    margin-right: 50px;
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
 }
 
-.btn_primary{
+.btn_primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
-    color:white; 
+    color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
 
+}
+
+/* header related */
+.header {
+    background-color: white;
+    justify-content: space-between;
+
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+
+}
+
+.banner .pp {
+    width: 500px;
+}
+
+.banner_greet {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner_name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner_des {
+    margin-top: 5px;
+}
+
+.banner_content {
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me style */
+.about {
+    /* padding: 100px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700; */
+
+    background: #edc7ac;
+    margin: 130px 0;
+    padding 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-h3 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    color: #757575;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-title{
+    margin-bottom: 0;
+}
+.info-des{
+    margin-top: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.whatido-title{
+text-align: center;
+}
+.whatido-des{
+    padding: 30px 150px;
+}
+.whatido{
+    display: flex;
+    
 }
